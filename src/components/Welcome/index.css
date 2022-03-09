@@ -1,0 +1,39 @@
+.heading {
+  font-family: Bree serif;
+  font-size: 50px;
+  color: #f0bb03;
+}
+
+.para {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 20px;
+}
+
+.contentContainer {
+  background-color: #1e293b;
+  height: 700px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  color: black;
+  background-color: #ffffff;
+  height: 35px;
+  width: 90px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  font-family: Bree serif;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .contentContainer {
+    width: 400px;
+  }
+}
